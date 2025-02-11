@@ -1,0 +1,24 @@
+SATUS
+(
+    !TODOS OS TOKENS DA LINGUAGEM
+    LITTERAE d = "r"|
+    LITTERAE c,a|
+    NUMERUS x|
+    NUMERUS y = 963|
+    NUMERUS i|
+    SI[y >= 10]
+    (
+        REDITUS[x]|
+    )
+    ALIUD
+    (
+        LEGERE[c]|
+        SCRIBERE[c]|
+    )
+    DUM[y < 10]
+    (
+        x = (x - 1)|
+        y = 2 + 3 * (23 / 13)|
+        SCRIBERE["Hello World"]|
+    )
+)

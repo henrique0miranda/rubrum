@@ -1,0 +1,25 @@
+SATUS
+(
+    !TODOS OS TOKENS DA LINGUAGEM
+    LITTERAE d = "2"|
+    LITTERAE d|
+    LITTERAE c = 2|
+    NUMERUS x = "3"|
+    NUMERUS y = 963|
+    NUMERUS i|
+    SI[z >= 10]
+    (
+        REDITUS[x]|
+    )
+    ALIUD
+    (
+        LEGERE[c]|
+        SCRIBERE[c]|
+    )
+    DUM[y >= 10]
+    (
+        x = (x - 1)|
+        y = 2 + 3 * (23 / 13)|
+        SCRIBERE["VERUM"]|
+    )
+)

@@ -1,0 +1,27 @@
+SATUS
+(
+    !TODOS OS TOKENS DA LINGUAGEM
+    LITTERAE d = "2"
+    LITTERAE c,a|
+    NUMERUS |
+    NUMERUS y = 963|
+    NUMERUS i|
+    SI[ >= 10]
+    (
+        NUMERUS z = 23|
+        REDITUS[x]|
+    )
+    ALIUD
+    (
+        LEGERE[c]|
+        SCRIBERE[c]|
+    )
+    DUM[y  10]
+    (
+        x = (x - 1)|
+        y = 2 + 3 * (23 / 13)|
+        SCRIBERE[VERUM]|
+    )
+)
+
+c = "scope"|
