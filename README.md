@@ -1,6 +1,6 @@
 # Linguagem 
 
-A linguagem de programação Rubrum utiliza o idioma latim como base para as palavras reservada.
+A linguagem de programação Rubrum utiliza o idioma latim como base para as palavras reservada. \
 Para iniciar um programa na linguagem Rubrum, é necessário adicionar a palavra-chave STATUS e em seguida parênteses. Dentro deles, todo o escopo do
 código será descrito. Os comentários podem ser adicionados utilizando o símbolo “!” no início da frase.
 
@@ -34,7 +34,7 @@ ID         -> (a..z)(A..Z | a..z | 0..9)* \
 NUMERO     -> (0..9)+ \ 
 BOOL       -> VERUM | FALSUS  \
 
-ESPECIFICAÇÕES 
+# Especificações
 
 V NÃO DECLARAR DUAS VARIAVEIS COM O MESMO ID \
 V DECLARAR ANTES DE USAR  \
